@@ -78,84 +78,84 @@ new Networkdiagram.Chart({
     <tr>
 		<td>tooltipElem</td>
 		<td>is the id of a 'div' where the tooltip should appear. If the tooltip should be movable or no tooltip should be shown, the element can remain empty
-			<br />default: null
-			<br />possible values: any valid id of a <div> or Null
+			<br /><br />default: null
+			<br />possible values: any valid id of a 'div' or null
 		</td>
 	</tr>
 	<tr>
 		<td>charge</td>
 		<td>is a technical attribute for the settings of the network.
-			<br />default: -300
+			<br /><br />default: -300
 			<br />possible values: any number
 		</td>
 	</tr>
 	<tr>
 		<td>colorcode</td>
 		<td>defines if the nodes should be drawn in black-white or with colors
-			<br />default: 'colored'
+			<br /><br />default: 'colored'
 			<br />possible values: ['colored', 'black-white']
 		</td>
 	</tr>
 	<tr>
 		<td>colors</td>
 		<td>is an array of different colors. These colors are used for the filling of the nodes
-			<br />default: a number of colors in the attribute 'default_colorset'
+			<br /><br />default: a number of colors in the attribute 'default_colorset'
 			<br />possible values: any array of colors
 		</td>
 	</tr>
 	<tr>
 		<td>nodeSize</td>
 		<td>defines if the size of the nodes is based on the number of incoming or outgoing links.
-			<br />default: 'outgoing'
+			<br /><br />default: 'outgoing'
 			<br />possible values: ['outgoing', 'incoming']
 		</td>
 	</tr>
 	<tr>
 	<td>directed</td>
 		<td>defines if the network diagram should be directed (true) or undirected (false)
-			<br />default: true
+			<br /><br />default: true
 			<br />possible values: [true, false]
 		</td>
 	</tr>
 	<tr>
 		<td>tooltipSetting</td>
 		<td>defines if tooltips should be shown in case of a mouseoverevent
-			<br />default: static
+			<br /><br />default: 'static'
 			<br />possible values: ['none', 'movable', 'static']
 		</td>
 	</tr>
 	<tr>
 		<td>sortingTooltip</td>
 		<td>defines by which criteria the connections in the tooltip should be sorted
-			<br />default: 'source'
+			<br /><br />default: 'source'
 			<br />possible values: ['source', 'target', 'data']
 		</td>
 	</tr>
 	<tr>
 		<td>sortingOrderTooltip</td>
 		<td>defines if the nodes should be ordered ascending or descending
-			<br />default: true
+			<br /><br />default: true
 			<br />possible values: [true, false] true means ascending, false means descending
 		</td>
 	</tr>
 	<tr>
 		<td>tooltipOrientation</td>
 		<td>defines if the text in the tooltip should be horizontal or vertical
-			<br />default: horizontal
+			<br /><br />default: 'horizontal'
 			<br />possible values: ['horizontal', 'vertical']
 		</td>
 	</tr>
 	<tr>
 		<td>onClickNode</td>
 		<td>defines a function which should be executed on a click event on a node
-			<br />default: null
+			<br /><br />default: null
 			<br />possible values: any function
 		</td>
 	</tr>
 	<tr>
 		<td>onClickLink</td>
 		<td>defines a function which should be executed on a click event on a link
-			<br />default: null
+			<br /><br />default: null
 			<br />possible values: any function
 		</td>
 	</tr>
