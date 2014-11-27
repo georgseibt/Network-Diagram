@@ -45,7 +45,7 @@ new Networkdiagram.Chart({
 });
 ```
 
-##Mandatory Attributes
+## Mandatory Attributes
 <table>
     <tr>
         <th>Attribute</th>
@@ -69,7 +69,7 @@ new Networkdiagram.Chart({
     </tr>
 </table>
 
-##Optional Attributes
+## Optional Attributes
 <table>
     <tr>
         <th>Attribute</th>
